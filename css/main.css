@@ -1,0 +1,81 @@
+.container {
+	padding: 20px;
+	width: 1800px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	background-color: rgb(32, 30, 30);
+	width: 150px;
+	height: 450px;
+}
+
+.red {
+	display: inline-block;
+	margin: 0;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: red;
+	opacity: 0.06;
+}
+
+.yellow {
+	display: inline-block;
+	margin: 0;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: yellow;
+	opacity: 0.06;
+}
+
+.green {
+	display: inline-block;
+	margin: 0;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: green;
+	opacity: 0.06;
+}
+
+.leg {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50px;
+	height: 150px;
+	background-color: black;
+}
+
+.opacity {
+	opacity: 1;
+}
+
+.timeoutred {
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700;
+	color: lightblue;
+}
+
+.timeoutyellow {
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700;
+	color: darkblue;
+}
+
+.timeoutgreen {
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700;
+	color: white;
+}
+
+.result {
+	text-align: center;
+	font-size: 64px;
+}

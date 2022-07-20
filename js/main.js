@@ -55,6 +55,22 @@ setTimeout(()=>{
 	},11000)
 },15000)
 
+setTimeout(()=>{
+	elRed.classList.remove("opacity")
+	elYellow.classList.add("opacity")
+	elGreen.classList.remove("opacity")
+	elResult.textContent = "Kutib turing!!!"
+	elBody.style.backgroundColor = "darkcyan"
+	elResult.style.color = "yellow"
+	let intervalYellow = setInterval(()=>{
+		elTimeOutYellow.textContent--
+	},1000)
+	setTimeout(()=>{
+		clearInterval(intervalYellow)
+		elTimeOutYellow.textContent = 3
+	},4000)
+},26000)
+
 setInterval(()=>{
 	
 	setTimeout(()=>{
@@ -104,5 +120,21 @@ setInterval(()=>{
 			elTimeOutGreen.textContent = 10
 		},11000)
 	},15000)
+
+	setTimeout(()=>{
+		elRed.classList.remove("opacity")
+		elYellow.classList.add("opacity")
+		elGreen.classList.remove("opacity")
+		elResult.textContent = "Kutib turing!!!"
+		elBody.style.backgroundColor = "darkcyan"
+		elResult.style.color = "yellow"
+		let intervalYellow = setInterval(()=>{
+			elTimeOutYellow.textContent--
+		},1000)
+		setTimeout(()=>{
+			clearInterval(intervalYellow)
+			elTimeOutYellow.textContent = 3
+		},4000)
+	},26000)
 	
-},26000)
+},30000)

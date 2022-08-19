@@ -11,7 +11,7 @@ setTimeout(()=>{
 	elRed.classList.add("opacity")
 	elYellow.classList.remove("opacity")
 	elGreen.classList.remove("opacity")
-	elResult.textContent = "To'xtang!!!"
+	elResult.textContent = "Stop!!!"
 	elBody.style.backgroundColor = "chartreuse"
 	elResult.style.color = "red"
 	let intervalRed = setInterval(()=>{
@@ -27,7 +27,7 @@ setTimeout(()=>{
 	elRed.classList.remove("opacity")
 	elYellow.classList.add("opacity")
 	elGreen.classList.remove("opacity")
-	elResult.textContent = "Kutib turing!!!"
+	elResult.textContent = "Wait!!!"
 	elBody.style.backgroundColor = "darkcyan"
 	elResult.style.color = "yellow"
 	let intervalYellow = setInterval(()=>{
@@ -43,7 +43,7 @@ setTimeout(()=>{
 	elRed.classList.remove("opacity")
 	elYellow.classList.remove("opacity")
 	elGreen.classList.add("opacity")
-	elResult.textContent = "Yuring!!!"
+	elResult.textContent = "Go!!!"
 	elBody.style.backgroundColor = "darkseagreen"
 	elResult.style.color = "green"
 	let intervalGreen = setInterval(()=>{
@@ -59,7 +59,7 @@ setTimeout(()=>{
 	elRed.classList.remove("opacity")
 	elYellow.classList.add("opacity")
 	elGreen.classList.remove("opacity")
-	elResult.textContent = "Kutib turing!!!"
+	elResult.textContent = "Wait!!!"
 	elBody.style.backgroundColor = "darkcyan"
 	elResult.style.color = "yellow"
 	let intervalYellow = setInterval(()=>{
@@ -77,7 +77,7 @@ setInterval(()=>{
 		elRed.classList.add("opacity")
 		elYellow.classList.remove("opacity")
 		elGreen.classList.remove("opacity")
-		elResult.textContent = "To'xtang!!!"
+		elResult.textContent = "Stop!!!"
 		elBody.style.backgroundColor = "chartreuse"
 		elResult.style.color = "red"
 		let intervalRed = setInterval(()=>{
@@ -93,7 +93,7 @@ setInterval(()=>{
 		elRed.classList.remove("opacity")
 		elYellow.classList.add("opacity")
 		elGreen.classList.remove("opacity")
-		elResult.textContent = "Kutib turing!!!"
+		elResult.textContent = "Wait!!!"
 		elBody.style.backgroundColor = "darkcyan"
 		elResult.style.color = "yellow"
 		let intervalYellow = setInterval(()=>{
@@ -109,7 +109,7 @@ setInterval(()=>{
 		elRed.classList.remove("opacity")
 		elYellow.classList.remove("opacity")
 		elGreen.classList.add("opacity")
-		elResult.textContent = "Yuring!!!"
+		elResult.textContent = "Go!!!"
 		elBody.style.backgroundColor = "darkseagreen"
 		elResult.style.color = "green"
 		let intervalGreen = setInterval(()=>{
@@ -125,7 +125,7 @@ setInterval(()=>{
 		elRed.classList.remove("opacity")
 		elYellow.classList.add("opacity")
 		elGreen.classList.remove("opacity")
-		elResult.textContent = "Kutib turing!!!"
+		elResult.textContent = "Wait!!!"
 		elBody.style.backgroundColor = "darkcyan"
 		elResult.style.color = "yellow"
 		let intervalYellow = setInterval(()=>{

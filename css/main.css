@@ -1,17 +1,15 @@
 .container {
-	padding: 20px;
+	padding: 0 20px;
 }
 
 .card {
 	padding: 10px;
 	border-radius: 5px;
 	display: flex;
-	gap: 20px;
 	flex-direction: column;
 	margin: 0 auto;
 	background-color: rgb(32, 30, 30);
 	width: 150px;
-	/* height: 450px; */
 }
 
 .red {
@@ -78,6 +76,7 @@
 }
 
 .result {
+	margin: 0;
 	text-align: center;
 	font-size: 64px;
 }
